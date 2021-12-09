@@ -1,0 +1,51 @@
+Volatile Memory: Time taken: ~6ms 
+
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.006135 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.006483 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.006045 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.007811 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.006959 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.005706 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.008147 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.006283 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.006331 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_volatile$ ./htvol 
+Time taken: 0.004938 seconds
+
+Persistent Memory (the insertion time is recorded here, the program as a whole takes more time to run)
+1) Reserve-Publish: Time taken: ~0.4 seconds
+
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw1_reserve_publish$ ./pgm1
+Time taken: 0.538043 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw1_reserve_publish$ ./pgm1
+Time taken: 0.438613 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw1_reserve_publish$ ./pgm1
+Time taken: 0.430646 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw1_reserve_publish$ ./pgm1
+Time taken: 0.447139 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw1_reserve_publish$ ./pgm1
+Time taken: 0.399267 seconds
+
+2) Transactional API: Time taken: ~1.7 seconds 
+
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_cpp$ ./ht 
+Time taken: 1.51364 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_cpp$ ./ht
+Time taken: 1.75469 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_cpp$ ./ht
+Time taken: 2.07638 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_cpp$ ./ht
+Time taken: 1.82788 seconds
+pramod@pramod-Lenovo-G50-70:~/Desktop/839/Code/hw2_tx/hw2_cpp$ ./ht
+Time taken: 1.96519 seconds
+
+For each scenario, it is verified that the values are inserted into the hash table and/or persisted into newly created object pool.
